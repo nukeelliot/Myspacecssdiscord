@@ -1,0 +1,432 @@
+/*
+ @bombelliot on discord, fallonu123 on roblox, @f1sprite on twitter :D
+ */
+
+
+:root {
+    --myspace-blue: #007bff;
+    --myspace-blue-dark: #0f559f;
+    --myspace-blue-light: #007bff;
+
+    --myspace-bg-top: #fdfdf8;
+    --myspace-bg-bottom: #ece8dc;
+
+    --myspace-border: #8a8a8a;
+    --myspace-shadow: #ffffff;
+
+    --myspace-panel: #f7f3ea;
+    --myspace-panel-alt: #f0ebdf;
+
+    --myspace-text: #222;
+}
+
+* {
+    border-radius: 0 !important;
+    backdrop-filter: none !important;
+}
+
+body,
+.appMount,
+.bg__960e4,
+.wrapper__8436d {
+    background:
+        linear-gradient(
+            180deg,
+            var(--myspace-bg-top) 0%,
+            var(--myspace-bg-bottom) 100%
+        ) !important;
+}
+
+body,
+button,
+input,
+textarea,
+span,
+div {
+    font-family:
+        Tahoma,
+        Verdana,
+        Arial,
+        sans-serif !important;
+}
+
+.title_f75fb0,
+.bar_c38106,
+.container__9293f {
+    background:
+        linear-gradient(
+            to bottom,
+            #007bff,
+            #007bff
+        ) !important;
+
+    border-bottom: 2px solid #17397d !important;
+}
+
+.guilds_c48ade {
+    background:
+        linear-gradient(
+            180deg,
+            #f5f3eb,
+            #e8e3d7
+        ) !important;
+
+    border-right: 1px solid #999 !important;
+}
+
+.guilds_c48ade .wrapper__6e9f8 {
+    border: 1px solid #9a9a9a !important;
+}
+
+.sidebar_a4d4d9 {
+    background:
+        linear-gradient(
+            180deg,
+            #f8f5ed,
+            #ece7db
+        ) !important;
+
+    border-right: 1px solid #9f9f9f !important;
+}
+
+.name__2ea32,
+.modeSelected__2ea32 {
+    color: #007bff !important;
+    font-weight: bold !important;
+}
+
+.chatContent_f75fb0,
+.scroller__36d07 {
+    background:
+        linear-gradient(
+            180deg,
+            #fffefb,
+            #f3eee2
+        ) !important;
+}
+
+.form_f75fb0,
+.channelTextArea_f75fb0,
+.scrollableContainer__74017 {
+    background: #fdfbf5 !important;
+    border: 2px solid #8d8d8d !important;
+    box-shadow:
+        inset 1px 1px 0 white,
+        inset -1px -1px 0 #cfcfcf !important;
+}
+
+.membersWrap_c8ffbb,
+.members_c8ffbb {
+    background:
+        linear-gradient(
+            180deg,
+            #f5f1e8,
+            #ebe5d8
+        ) !important;
+
+    border-left: 1px solid #9d9d9d !important;
+}
+
+.panels_c48ade {
+    background:
+        linear-gradient(
+            180deg,
+            #dce7ff,
+            #bfd2ff
+        ) !important;
+
+    border-top: 2px solid var(--myspace-blue-dark) !important;
+}
+
+.userPopoutOuter_c69a7b,
+.overlayBackground__345c9,
+.profileColors__4e6e7 {
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff,
+            #edf2ff
+        ) !important;
+
+    border: 2px solid var(--myspace-blue) !important;
+
+    box-shadow:
+        2px 2px 0 #999 !important;
+}
+
+button {
+    background:
+        linear-gradient(
+            180deg,
+            #fdfdfd,
+            #d8d8d8
+        ) !important;
+
+    border: 1px solid #7f7f7f !important;
+
+    box-shadow:
+        inset 1px 1px 0 white,
+        inset -1px -1px 0 #b0b0b0 !important;
+
+    color: #111 !important;
+}
+
+button:hover {
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff,
+            #c7d9ff
+        ) !important;
+}
+
+.searchBar__97492,
+.input_f8bc55 {
+    background: white !important;
+    border: 2px inset #a0a0a0 !important;
+}
+
+.container_f37cb1 {
+    background:
+        linear-gradient(
+            180deg,
+            #007bff,
+            #007bff,
+        ) !important;
+
+    color: white !important;
+}
+
+.message__5126c:hover {
+    background: rgba(51, 102, 204, 0.08) !important;
+}
+
+::-webkit-scrollbar {
+    width: 14px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd7ca !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #007bff !important;
+    border: 2px solid #d7d0c4 !important;
+}
+
+[class*="user"],
+[class*="profile"],
+[class*="card"] {
+    border: 1px solid #999 !important;
+}
+
+[class*="header"] {
+    text-shadow: none !important;
+}
+
+
+
+svg,
+img,
+video {
+    border-radius: 0 !important;
+}
+
+
+
+.theme-dark,
+.theme-light {
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --background-floating: #f6f2e8 !important;
+}
+
+
+svg foreignObject {
+    mask: none !important;
+}
+
+svg rect {
+    rx: 0 !important;
+}
+
+[class*="avatar"],
+[class*="avatarDecoration"],
+[class*="memberInner"],
+[class*="memberAvatar"],
+[class*="userAvatar"],
+[class*="avatarStack"] {
+    border-radius: 0 !important;
+    mask: none !important;
+}
+
+[class*="avatar"] img,
+[class*="member"] img,
+[class*="user"] img {
+    border-radius: 0 !important;
+}
+
+[class*="blobContainer"],
+[class*="iconContainer"],
+[class*="guildIcon"],
+[class*="listItem"] img,
+[class*="guilds"] img {
+    border-radius: 0 !important;
+    mask: none !important;
+}
+
+[class*="wrapper"] {
+    border-radius: 0 !important;
+}
+
+
+.userPopoutOuter_c69a7b,
+.userProfileOuterUnthemed_c69a7b {
+    background: #f8f5ed !important;
+
+    border: 3px solid #007bff !important;
+    min-width: 420px !important;
+}
+
+
+
+
+.userProfileOuter_c69a7b section,
+.userPopoutOuter_c69a7b section {
+    background: #fff !important;
+
+    border: 1px solid #999 !important;
+
+    margin: 6px !important;
+
+    padding: 0 !important;
+}
+
+.userProfileOuter_c69a7b section h1,
+.userProfileOuter_c69a7b section h2,
+.userProfileOuter_c69a7b section h3,
+.userPopoutOuter_c69a7b section h1,
+.userPopoutOuter_c69a7b section h2,
+.userPopoutOuter_c69a7b section h3 {
+    background:
+        linear-gradient(
+            to bottom,
+            #007bff,
+            #007bff
+        ) !important;
+
+    color: white !important;
+
+    margin: 0 !important;
+
+    padding: 4px 8px !important;
+
+    font-size: 11px !important;
+
+    text-transform: uppercase !important;
+}
+
+.userProfileOuter_c69a7b section > div,
+.userPopoutOuter_c69a7b section > div {
+    border-top: 1px solid #ccc !important;
+    padding: 6px !important;
+}
+.container__9293f {
+    background:
+        linear-gradient(
+            to bottom,
+            #f9f9f9,
+            #dbdbdb
+        ) !important;
+
+    border-bottom: 3px solid #999898 !important;
+}
+
+.container__9293f * {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+
+[class*="avatar"],
+[class*="avatar"] *,
+svg[aria-hidden="true"] {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+[class*="avatar"] img {
+    border: 3px solid #007bff !important;
+    box-sizing: border-box !important;
+    border-radius: 0 !important;
+}
+[class*="avatarDecoration"],
+[class*="avatarDecorationHint"],
+[class*="profileEffects"],
+[class*="profileEffect"],
+[class*="avatarDecorationOverlay"] {
+    display: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+.message__5126c .avatar__08316,
+.message__5126c [class*="avatar"],
+.message__5126c img {
+    border-radius: 0 !important;
+
+    border: 4px solid #3366cc !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+}
+
+
+.message__5126c svg foreignObject {
+    mask: none !important;
+    -webkit-mask: none !important;
+}
+
+
+[class*="username"],
+[class*="name"],
+[class*="displayName"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+[class*="username"],
+[class*="displayName"] {
+    font-family: Tahoma, Arial, sans-serif !important;
+    color: #007bff !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+
+[class*="username"]:hover {
+    text-decoration: underline !important;
+    color: #007bff !important;
+}
+
+
+[class*="modeSelected"] {
+    background: #d6e4ff !important;
+    border-left: 3px solid #007bff !important;
+    color: #007bff !important;
+}
+
+[class*="channel"]:hover {
+    background: #eef4ff !important;
+    text-decoration: underline !important;
+}
+img[class*="emoji"],
+[class*="emoji"] img {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
